@@ -1,9 +1,6 @@
 
 # asyncio-rpc-aiopqueue
 
-[![pipeline status](https://gitlab.com/smheidrich/asyncio-rpc-aiopqueue/badges/main/pipeline.svg?style=flat-square)](https://gitlab.com/smheidrich/asyncio-rpc-aiopqueue/-/commits/main)
-[![codecov](https://img.shields.io/codecov/c/gl/smheidrich/asyncio-rpc-aiopqueue?style=flat-square&token=TODO)](https://codecov.io/gl/smheidrich/asyncio-rpc-aiopqueue)
-
 multiprocessing commlayer for nens/asyncio-rpc using aioprocessing.AioQueue.
 
 Allows using asyncio-rpc for local interprocess communication with and between
