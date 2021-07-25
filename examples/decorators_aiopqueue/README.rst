@@ -9,4 +9,4 @@ parent (so not true RPC, rather IPC).
 Running example
 ---------------
 
-No preparation required, just run `python3 client.py`.
+No preparation required, just run ``python3 client.py``.

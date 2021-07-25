@@ -1,13 +1,13 @@
 
 # asyncio-rpc-aiopqueue
 
-multiprocessing commlayer for nens/asyncio-rpc using aioprocessing.AioQueue.
+multiprocessing commlayer for [nens/asyncio-rpc][1] using [aioprocessing][2]'s
+`AioQueue`.
 
 Allows using asyncio-rpc for local interprocess communication with and between
 processes spawned using Python's multiprocessing module. Internally, this uses
-aioprocessing.AioQueue, which spawns threads in order to make blocking
-multiprocessing.Queue calls fit for use with asyncio, so be aware of that.
-
+`aioprocessing.AioQueue`, which spawns threads in order to make blocking
+`multiprocessing.Queue` calls fit for use with asyncio, so be aware of that.
 
 ## Installation
 
@@ -32,3 +32,8 @@ Usage is fairly analogous to that of the Redis commlayer, except:
    provide an RPC method that makes the server shut down. This is a bit tricky
    to do in asyncio-rpc, see the aforementioned example for how to do this
    (method was adapted from asyncio-rpc's tests).
+
+
+[1]: https://github.com/nens/asyncio-rpc
+[2]: https://github.com/dano/aioprocessing
+
