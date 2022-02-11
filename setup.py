@@ -22,8 +22,8 @@ setup(
     "setuptools_scm",
   ],
   install_requires=[
-    "aioprocessing",
-    "asyncio-rpc",
+    "aioprocessing>=2,<3",
+    "asyncio-rpc>=0.1,<0.2",
   ],
   tests_require=[
     "pytest",
