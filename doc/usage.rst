@@ -3,4 +3,5 @@ Usage
 
 .. py:currentmodule:: asyncio-rpc-aiopqueue
 
-See `examples`.
+Refer to the
+`examples <https://gitlab.com/smheidrich/asyncio-rpc-aiopqueue/-/tree/main/examples/>`_.
