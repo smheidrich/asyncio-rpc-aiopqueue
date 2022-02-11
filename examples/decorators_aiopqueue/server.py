@@ -1,10 +1,7 @@
 import asyncio
 from typing import List
-from argparse import ArgumentParser
 from asyncio_rpc.server import RPCServer, DefaultExecutor
 from asyncio_rpc.models import RPCCall
-from asyncio_rpc.commlayers.redis import RPCRedisCommLayer
-from asyncio_rpc.serialization import msgpack as msgpack_serialization
 
 
 def rpc_method(func):

@@ -1,13 +1,16 @@
-from asyncio_rpc.base import AbstractRPCCommLayer
+from asyncio_rpc.commlayers.base import AbstractRPCCommLayer
 from asyncio_rpc.models import RPCBase
 from aioprocessing import AioQueue
+from typing import Tuple
 
 class AiopQueueCommLayer(AbstractRPCCommLayer):
     """
     aioprocessing.Queue remote procedure call communication layer
     """
     @classmethod
-    def create_pair(cls):
+    def create_pair(cls) \
+    -> Tuple["AiopQueueCommLayer", "AiopQueueCommLayer"]:
+        """Create connected pair of AiopQueueCommLayers"""
         q1, q2 = AioQueue(), AioQueue()
         return cls(q1, q2), cls(q2, q1)
 

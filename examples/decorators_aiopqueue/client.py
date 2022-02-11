@@ -3,7 +3,7 @@ from uuid import uuid4
 from argparse import ArgumentParser
 from asyncio_rpc.client import RPCClient
 from asyncio_rpc.models import RPCCall, RPCStack
-from asyncio_rpc.commlayers.aiopqueue import AiopQueueCommLayer
+from asyncio_rpc_aiopqueue import AiopQueueCommLayer
 from aioprocessing import AioProcess
 import server
 
