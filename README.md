@@ -1,6 +1,9 @@
 
 # asyncio-rpc-aiopqueue
 
+[![pipeline status](https://gitlab.com/smheidrich/asyncio-rpc-aiopqueue/badges/main/pipeline.svg?style=flat-square)](https://gitlab.com/smheidrich/asyncio-rpc-aiopqueue/-/commits/main)
+[![docs](https://img.shields.io/badge/docs-online-brightgreen?style=flat-square)](https://smheidrich.gitlab.io/asyncio-rpc-aiopqueue/)
+
 multiprocessing commlayer for [nens/asyncio-rpc][1] using [aioprocessing][2]'s
 `AioQueue`.
 
