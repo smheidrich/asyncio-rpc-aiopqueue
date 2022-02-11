@@ -14,7 +14,7 @@ pytest:
   image: $IMAGE
   parallel:
     matrix:
-      - IMAGE: ['python:3.6', 'python:3.9']
+      - IMAGE: ['python:3.7', 'python:3.10']
   stage: test
   script:
   - ( cd examples/decorators_aiopqueue/; python client.py )

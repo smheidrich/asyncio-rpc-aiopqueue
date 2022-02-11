@@ -17,6 +17,7 @@ setup(
     "Programming Language :: Python :: 3.6",
   ],
   modules=["asyncio_rpc_aiopqueue"],
+  python_requires=">3.7",
   setup_requires=[
     "pytest-runner",
     "setuptools_scm",
