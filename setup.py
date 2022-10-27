@@ -14,10 +14,13 @@ setup(
     "Development Status :: 3 - Alpha",
     "Environment :: Console",
     "Operating System :: POSIX :: Linux",
-    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
   ],
   modules=["asyncio_rpc_aiopqueue"],
-  python_requires=">3.7",
+  python_requires=">3.7,<4",
   setup_requires=[
     "pytest-runner",
     "setuptools_scm",
@@ -25,8 +28,5 @@ setup(
   install_requires=[
     "aioprocessing>=2,<3",
     "asyncio-rpc>=0.1,<0.2",
-  ],
-  tests_require=[
-    "pytest",
   ],
 )

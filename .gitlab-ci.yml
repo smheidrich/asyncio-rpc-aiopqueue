@@ -10,7 +10,7 @@ cache:
 before_script:
   - pip install -e .
 
-pytest:
+test:
   image: $IMAGE
   parallel:
     matrix:
