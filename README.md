@@ -18,7 +18,7 @@ processes spawned using Python's multiprocessing module. Internally, this uses
 pip install git+https://gitlab.com/smheidrich/asyncio-rpc-aiopqueue.git
 ```
 
-## Usage
+## Usage & docs
 
 See the decorator example (adapted from asyncio-rpc's own decorator example) in
 `examples/decorators_aiopqueue`. In contrast to asyncio-rpc's example, client
